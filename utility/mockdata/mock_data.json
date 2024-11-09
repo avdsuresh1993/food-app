@@ -112,6 +112,21 @@
   },
   {
     "info": {
+      "id": "72742",
+      "name": "KS Baker",
+      "cloudinaryImageId": "fab20c99-8c62-40a2-b12a-a67fa77336bf_376914.jpg",
+      "locality": "",
+      "areaName": "Kukatpally",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Pizzas",
+        "Backery"
+      ],
+      "avgRating": 3.9
+    }
+  },
+  {
+    "info": {
       "id": "70741",
       "name": "Subway",
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/25/1c43eba3-fa9a-4390-8674-7e6ec2c1811e_70741.jpg",

@@ -125,5 +125,20 @@ export const restuarents = [
         ],
         avgRating: 4.4
       }
+    },
+    {
+      info: {
+        id: "72742",
+        name: "KS Baker",
+        cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/7/fab20c99-8c62-40a2-b12a-a67fa77336bf_376914.jpg",
+        locality: "Next Galleria Mall",
+        areaName: "Kukatpally",
+        costForTwo: "₹350 for two",
+        cuisines: [
+          "Pizzas",
+          "Backery"
+        ],
+        avgRating: 3.9
+      }
     }
   ]
