@@ -2,7 +2,7 @@
     border: 2px solid #e7e7e7;
     border-radius: 4px;
     padding:5px;
-    
+    box-shadow: 2px 2px 2px rgb(148, 148, 148);
 }
 
 .card > img{
