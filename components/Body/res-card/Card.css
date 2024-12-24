@@ -1,14 +1,15 @@
 .card{
     border: 2px solid #e7e7e7;
     border-radius: 4px;
-    padding:5px;
     box-shadow: 2px 2px 2px rgb(148, 148, 148);
 }
 
 .card > img{
     width: 100%;
+    padding:5px;
     object-fit: cover;
-    height:150px;
+    height:250px;
+    align-content: stretch;
 }
 
 .rating{
@@ -20,14 +21,16 @@
 .card_heading{
     margin-block: 5px;
     text-align: center;
+    padding:10px;
 }
 
 .card_content{
-    margin-top: 10px;
-    padding-top: 10px;
+   
+    padding: 10px;
+
 }
 
 .card_content>p{
-    padding-block: 10px;
+    
     font-weight:300;
 }
