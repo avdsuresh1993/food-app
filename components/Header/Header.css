@@ -28,3 +28,6 @@ ul{
     width:60px;
     align-content: center;
 }
+li>Link{
+    text-decoration: none;
+}

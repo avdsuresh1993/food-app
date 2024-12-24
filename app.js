@@ -1,5 +1,5 @@
 import { Header } from "./components/Header/Header"
-import { Body } from "./components/Body/Body"
+import { Outlet } from "react-router-dom"
 import './app.css'
 
 export const App=()=>{
@@ -7,7 +7,7 @@ export const App=()=>{
   return(
     <div className='app'>
     <Header/>
-    <Body/>
+    <Outlet/>
     </div>
   )
 }

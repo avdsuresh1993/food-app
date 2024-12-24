@@ -1,5 +1,7 @@
+import {useRouteError} from 'react-router-dom'
 export const Error=()=>{
 
+    const error = useRouteError()
     return(
         <>
         <div style={{
@@ -21,7 +23,7 @@ export const Error=()=>{
                 fontWeight:'100',
                 fontSize:'2em',
                 
-            }}>Something went wrong... </p>
+            }}>{error.status} {error.statusText} </p>
         </div>
         </>
     )

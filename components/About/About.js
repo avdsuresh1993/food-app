@@ -7,7 +7,7 @@ export const About=()=>{
            flexDirection:'column',
            alignItems:"center",
            justifyContent:"center",
-           height:'90vh',
+           height:'70vh',
            
             
         }}>

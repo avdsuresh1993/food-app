@@ -1,9 +1,9 @@
 import './Body.css'
 import { Card } from './res-card/Card'
-import { restuarents } from '../../utility/mockdata/mockdata'
 import { useState,useEffect } from 'react'
 import axios from 'axios'
 import { ShimmerUI } from '../Shimmer/Shimmer'
+import { Link } from 'react-router-dom'
 
 export const Body=()=>{
   
@@ -39,7 +39,7 @@ export const Body=()=>{
         {
           filteredList.length>0 ? filteredList.map(restuarent=>{
             const {info} = restuarent
-            return <Card key={info.id} restuarent={info}/>
+            return <Link to={`/restarunt/${info.id}`}  key={info.id}><Card restuarent={info}/></Link>
           }): <ShimmerUI/>
         }
       

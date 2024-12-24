@@ -7,9 +7,8 @@ export const Contact=()=>{
            flexDirection:'column',
            alignItems:"center",
            justifyContent:"center",
-           height:'90vh',
+           height:'70vh',
            
-            
         }}>
             <h3 style={{
                 fontWeight:'500',

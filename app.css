@@ -2,3 +2,16 @@
     max-width: 95%;
     margin:1% auto;
 }
+
+.link_text{
+    text-decoration: none;
+    color:black
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
