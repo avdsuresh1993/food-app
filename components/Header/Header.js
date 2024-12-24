@@ -1,5 +1,13 @@
 import './Header.css'
+import { useState } from 'react'
 export const Header=()=>{
+ const [isLogin,setIsLogin]=useState(true)
+
+  const buttonName = isLogin?'Login':'Logout'
+
+  const btnHandler=_=>{
+    setIsLogin(prev=>!prev)
+  }
     return (
         <div className='header'>
             <div className='logo-container'>
@@ -11,6 +19,7 @@ export const Header=()=>{
                 <li><strong>About</strong></li>
                 <li><strong>Contact</strong></li>
                 <li><strong>Cart</strong></li>
+                <button onClick={btnHandler} className='btn'>{buttonName}</button>
               </ul>
             </div>
            

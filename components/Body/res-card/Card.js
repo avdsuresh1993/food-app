@@ -2,7 +2,6 @@ import './Card.css'
 import { config } from '../../../utility/common'
 
 export const Card=({restuarent})=>{
-  console.log(restuarent)
    const {name,cloudinaryImageId,cuisines,avgRating:rating,areaName} = restuarent
    const cuisine =cuisines.join(', ')
     return (

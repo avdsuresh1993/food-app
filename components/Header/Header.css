@@ -22,3 +22,9 @@ gap:20px;
 ul{
     list-style: none;
 }
+
+.btn{
+    padding: 2px;
+    width:60px;
+    align-content: center;
+}
