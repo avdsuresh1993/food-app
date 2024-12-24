@@ -21,7 +21,7 @@ export const Error=()=>{
                 fontWeight:'100',
                 fontSize:'2em',
                 
-            }}>Something went wrong </p>
+            }}>Something went wrong... </p>
         </div>
         </>
     )
